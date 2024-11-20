@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "El98R1UETCI2ILqO4Sgi3/t4XNH7jqFD+BLJMIMHLjc=",
+  "Hash": "OrAitE5KFHpQUO5CIoWVR4n0RmZNaCHq9QomWMTfR4Y=",
   "Source": "Pronia",
   "BasePath": "_content/Pronia",
   "Mode": "Default",
@@ -3019,6 +3019,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Allium.webp"
     },
     {
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Azad.jpg",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/Azad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Azad.jpg"
+    },
+    {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\car.png",
       "SourceId": "Pronia",
       "SourceType": "Discovered",
@@ -3076,6 +3095,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\dark.png"
     },
     {
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Nicat.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/Nicat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Nicat.png"
+    },
+    {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\PitcherPlant.webp",
       "SourceId": "Pronia",
       "SourceType": "Discovered",
@@ -3131,6 +3169,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\service.png"
+    },
+    {
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Taceddin.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/Taceddin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Taceddin.png"
     },
     {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\TorchFlower.png",
