@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Pronia.DAL;
 using Pronia.ViewModels;
 
@@ -30,9 +31,11 @@ namespace Pronia.Controllers
             #endregion
 
 
+
             HomeVM homeVM = new HomeVM
             {
-                Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList()
+                Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList(),
+                Products = _context.Products.Include(p => p.ProductImages).ToList()
             };
 
             return View(homeVM);
