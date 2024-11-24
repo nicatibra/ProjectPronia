@@ -641,6 +641,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\Nicat.png"
     },
     {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Pitcher1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Pitcher1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Pitcher2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Pitcher2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Pitcher3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Pitcher3.jpg"
+    },
+    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\PitcherPlant.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\PitcherPlant.webp"
     },
@@ -649,12 +661,36 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\PitcherSecondary.jpg"
     },
     {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Rose1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Rose1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Rose2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Rose2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Rose3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Rose3.jpg"
+    },
+    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Taceddin.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\Taceddin.png"
     },
     {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Torch2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Torch2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Torch3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Torch3.jpg"
+    },
+    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\TorchFlower.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\TorchFlower.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\TorchMain.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\TorchMain.png"
     },
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\car.png",

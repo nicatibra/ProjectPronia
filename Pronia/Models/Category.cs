@@ -1,4 +1,4 @@
-﻿namespace Pronia.Models.Products
+﻿namespace Pronia.Models
 {
     public class Category : BaseEntity
     {

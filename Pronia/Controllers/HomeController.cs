@@ -13,7 +13,7 @@ namespace Pronia.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
 
             #region ForAddingToDB
@@ -31,11 +31,20 @@ namespace Pronia.Controllers
             #endregion
 
 
-
             HomeVM homeVM = new HomeVM
             {
-                Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList(),
-                Products = _context.Products.Include(p => p.ProductImages).ToList()
+                Slides = await _context.Slides
+                .Where(p => p.IsDeleted == false)//gelecekde heresine aid bele tek tek IsDeleted False serti qoyulmayacaq(silinecek)
+                .OrderBy(s => s.Order)
+                .Take(2)
+                .ToListAsync(),
+
+
+                Products = await _context.Products
+                .Where(p => p.IsDeleted == false)//Bu da silinecek
+                .Take(8)
+                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
+                .ToListAsync()
             };
 
             return View(homeVM);

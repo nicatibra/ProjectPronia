@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Pronia.Models;
-using Pronia.Models.Products;
 
 namespace Pronia.DAL
 {
