@@ -4,6 +4,18 @@ namespace Pronia.Utilities.Extensions
 {
     public static class FileValidator
     {
+        private static string CreatePath(string filename, params string[] roots)
+        {
+            string path = string.Empty;
+
+            for (int i = 0; i < roots.Length; i++)
+            {
+                path = Path.Combine(path, roots[i]);
+            }
+
+            return path = Path.Combine(path, filename);
+        }
+
         private static string NameCutter(this string filename)
         {
             return filename = filename.Substring(filename.LastIndexOf('.'));
@@ -36,17 +48,7 @@ namespace Pronia.Utilities.Extensions
         {
             string filename = string.Concat(Guid.NewGuid().ToString(), file.FileName.NameCutter());
 
-
-            string path = string.Empty;
-
-            for (int i = 0; i < roots.Length; i++)
-            {
-                path = Path.Combine(path, roots[i]);
-            }
-
-            path = Path.Combine(path, filename);
-
-
+            string path = CreatePath(filename, roots);
 
             using (FileStream fileStream = new(path, FileMode.Create))
             {
@@ -59,14 +61,8 @@ namespace Pronia.Utilities.Extensions
 
         public static void DeleteFile(this string filename, params string[] roots)
         {
-            string path = string.Empty;
+            string path = CreatePath(filename, roots);
 
-            for (int i = 0; i < roots.Length; i++)
-            {
-                path = Path.Combine(path, roots[i]);
-            }
-
-            path = Path.Combine(path, filename);
 
             if (File.Exists(path))
             {

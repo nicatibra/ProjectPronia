@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\pronia\\pronia\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\pronia\\pronia\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|solutionrelative:pronia\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\pronia\\pronia\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|solutionrelative:pronia\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\pronia\\pronia\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6134AF45-0770-4E38-9DB7-44A3598D05EC}|Pronia\\Pronia.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\pronia\\pronia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -43,8 +43,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T13:48:06.699Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -61,33 +60,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SlideController.cs",
               "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Controllers\\SlideController.cs",
               "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Controllers\\SlideController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwD0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T19:54:04.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileValidator.cs",
               "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Utilities\\Extensions\\FileValidator.cs",
               "RelativeDocumentMoniker": "Pronia\\Utilities\\Extensions\\FileValidator.cs",
               "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Utilities\\Extensions\\FileValidator.cs",
               "RelativeToolTip": "Pronia\\Utilities\\Extensions\\FileValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T20:38:45.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FileSize.cs",
               "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Utilities\\Enums\\FileSize.cs",
               "RelativeDocumentMoniker": "Pronia\\Utilities\\Enums\\FileSize.cs",
