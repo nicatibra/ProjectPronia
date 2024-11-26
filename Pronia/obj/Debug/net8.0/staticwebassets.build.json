@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1nuik23EurZMA6GbSf8JVH7wVwLG0bKWDr+ZjS6WxQ8=",
+  "Hash": "EgFDeEGugC1KHCaytSu6rNrwF+8a05ADLNqg/seNx9g=",
   "Source": "Pronia",
   "BasePath": "_content/Pronia",
   "Mode": "Default",
@@ -5280,12 +5280,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\dark.png"
     },
     {
-      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Flower1.png",
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Flower2.png",
       "SourceId": "Pronia",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
       "BasePath": "_content/Pronia",
-      "RelativePath": "assets/images/website-images/Flower1.png",
+      "RelativePath": "assets/images/website-images/Flower2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5296,7 +5296,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Flower1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Flower2.png"
     },
     {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Nicat.png",
