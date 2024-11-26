@@ -1,4 +1,6 @@
-﻿namespace Pronia.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Pronia.Models
 {
     public class Slide : BaseEntity
     {
@@ -7,5 +9,8 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public int Order { get; set; }
+
+        [NotMapped] //sql dusmesin deye
+        public IFormFile Photo { get; set; }
     }
 }
