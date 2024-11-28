@@ -36,7 +36,7 @@ namespace Pronia.Controllers
                 Slides = await _context.Slides
                 .Where(p => p.IsDeleted == false)//gelecekde heresine aid bele tek tek IsDeleted False serti qoyulmayacaq(silinecek)
                 .OrderBy(s => s.Order)
-                .Take(2)
+                .Take(3)
                 .ToListAsync(),
 
 
