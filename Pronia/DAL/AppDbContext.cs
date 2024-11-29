@@ -14,5 +14,11 @@ namespace Pronia.DAL
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<ProductImage> ProductImages { get; set; }
+
+        public DbSet<Tag> Tags { get; set; }
+
+        public DbSet<ProductTag> ProductTags { get; set; }
+
+
     }
 }

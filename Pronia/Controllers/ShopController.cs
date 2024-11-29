@@ -27,6 +27,7 @@ namespace Pronia.Controllers
             Product? product = await _context.Products
                 .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary)) //true,false,null ardcilligi
                 .Include(p => p.Category)
+                .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null) { return NotFound(); }

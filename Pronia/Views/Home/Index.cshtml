@@ -154,10 +154,10 @@
                                         <div class="product-img">
                                             <a href="shop.html">
                                                 <img class="primary-img"
-                                                     src="~/assets/images/website-images//@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==true).ImageUrl"
+                                                     src="~/assets/images/website-images//@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==true)?.ImageUrl"
                                                      alt="Product Images" />
                                                 <img class="secondary-img"
-                                                     src="~/assets/images/website-images//@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==false).ImageUrl"
+                                                     src="~/assets/images/website-images//@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==false)?.ImageUrl"
                                                      alt="Product Images" />
                                             </a>
                                             <div class="product-add-action">

@@ -1,11 +1,11 @@
-﻿@model CreateProductVM
+﻿@model UpdateProductAdminVM
 
 <div class="row">
 
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Create Category</h4>
+                <h4 class="card-title">Update Category</h4>
 
                 <form class="forms-sample" method="post" enctype="multipart/form-data">
                     <div class="form-group">
@@ -29,19 +29,15 @@
                     <div class="form-group">
                         <label asp-for="CategoryId">Category</label>
                         <select asp-for="CategoryId" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name) )">
-                            <option selected disabled value="">Choose Category</option>
-                        </select>
+                            
+                            <option selected disabled value="" >Choose Category</option>
+                            
 
+                        </select>
+                       
                         <span asp-validation-for="CategoryId" class="text-danger"></span>
                     </div>
 
-                    <div class="form-group">
-                        <label asp-for="TagIds">Tags</label>
-                        <select multiple asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags,nameof(Tag.Id),nameof(Tag.Name) )">
-                        </select>
-
-                        <span asp-validation-for="TagIds" class="text-danger"></span>
-                    </div>
 
                     <div class="form-group">
                         <label asp-for="Description">Description</label>

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Pronia.Areas.Admin.ViewModels
 {
-    public class CreateProductVM
+    public class UpdateProductAdminVM
     {
         public string Name { get; set; }
 
@@ -21,6 +21,5 @@ namespace Pronia.Areas.Admin.ViewModels
         public List<Category>? Categories { get; set; }
 
         public List<Tag>? Tags { get; set; }
-
     }
 }
