@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
 using Pronia.Models;
 
@@ -34,14 +35,14 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Category category)
+        public async Task<IActionResult> Create(CreateCategoryVM categoryVM)
         {
             if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            bool result = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim()); //Any() avtomatik ToLower edir
+            bool result = await _context.Categories.AnyAsync(c => c.Name.Trim() == categoryVM.Name.Trim()); //Any() avtomatik ToLower edir
 
             if (result)
             {
@@ -49,8 +50,13 @@ namespace Pronia.Areas.Admin.Controllers
                 return View();
             }
 
+            Category category = new()
+            {
+                Name = categoryVM.Name,
+                CreatedAt = DateTime.Now,
+                IsDeleted = false
+            };
 
-            category.CreatedAt = DateTime.Now;
 
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();
@@ -66,39 +72,44 @@ namespace Pronia.Areas.Admin.Controllers
 
             if (category == null) { return NotFound(); }
 
-            return View(category);
+            UpdateCategoryVM categoryVM = new UpdateCategoryVM
+            {
+                Name = category.Name
+            };
+
+            return View(categoryVM);
         }
 
 
         //existed: SQl-den gelen       category:formda daxil edilen
         [HttpPost]
-        public async Task<IActionResult> Update(int? id, Category category)
+        public async Task<IActionResult> Update(int? id, UpdateCategoryVM categoryVM)
         {
             if (id == null || id < 1) { return BadRequest(); }
 
             Category existed = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if (category == null) { return NotFound(); }
+            if (categoryVM == null) { return NotFound(); }
 
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(categoryVM);
             }
 
-            bool result = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim() && c.Id != id);
+            bool result = await _context.Categories.AnyAsync(c => c.Name.Trim() == categoryVM.Name.Trim() && c.Id != id);
             if (result)
             {
-                ModelState.AddModelError(nameof(Category.Name), "Category adlready exists!");
-                return View();
+                ModelState.AddModelError(nameof(UpdateCategoryVM.Name), "Category adlready exists!");
+                return View(categoryVM);
             }
 
-            if (existed.Name == category.Name)
+            if (existed.Name == categoryVM.Name)
             {
                 return RedirectToAction(nameof(Index));
             }
 
 
-            existed.Name = category.Name;
+            existed.Name = categoryVM.Name;
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
