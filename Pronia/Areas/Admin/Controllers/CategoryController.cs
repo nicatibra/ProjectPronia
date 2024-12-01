@@ -20,13 +20,19 @@ namespace Pronia.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Category> categories = await _context.Categories
-                .Where(c => !c.IsDeleted) //false olanlari getirir
+            List<GetCategoryAdminVM> categoryAdminVMs = await _context.Categories
+                .Where(c => !c.IsDeleted)
                 .Include(c => c.Products)
+                .Select(c => new GetCategoryAdminVM
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    ProductCount = c.Products.Count
+                })
                 .ToListAsync();
-
-            return View(categories);
+            return View(categoryAdminVMs);
         }
+
 
         [HttpGet]
         public IActionResult Create()
