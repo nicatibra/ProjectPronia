@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
 using Pronia.Models;
+using Pronia.Utilities.Enums;
+using Pronia.Utilities.Extensions;
 
 namespace Pronia.Areas.Admin.Controllers
 {
@@ -39,8 +41,11 @@ namespace Pronia.Areas.Admin.Controllers
         {
             CreateProductVM productVM = new CreateProductVM
             {
+                Categories = await _context.Categories.ToListAsync(),
                 Tags = await _context.Tags.ToListAsync(),
-                Categories = await _context.Categories.ToListAsync()
+                Colors = await _context.Colors.ToListAsync(),
+                Sizes = await _context.Sizes.ToListAsync()
+
             };
             return View(productVM);
         }
@@ -50,12 +55,45 @@ namespace Pronia.Areas.Admin.Controllers
         {
             productVM.Categories = await _context.Categories.ToListAsync();
             productVM.Tags = await _context.Tags.ToListAsync();
+            productVM.Colors = await _context.Colors.ToListAsync();
+            productVM.Sizes = await _context.Sizes.ToListAsync();
+
 
 
             if (!ModelState.IsValid)
             {
                 return View(productVM);
             }
+
+
+            if (!productVM.MainPhoto.ValidateType("image/"))
+            {
+                ModelState.AddModelError(nameof(productVM.MainPhoto), "File format is not image");
+                return View(productVM);
+            }
+
+            if (!productVM.MainPhoto.ValidateSize(FileSize.MB, 2))
+            {
+                ModelState.AddModelError(nameof(productVM.HoverPhoto), "File size must be less than 2 MB");
+                return View(productVM);
+            }
+
+
+            if (!productVM.HoverPhoto.ValidateType("image/"))
+            {
+                ModelState.AddModelError("HoverPhoto", "File fornat is not image");
+                return View(productVM);
+            }
+
+            if (!productVM.HoverPhoto.ValidateSize(FileSize.MB, 2))
+            {
+                ModelState.AddModelError("HoverPhoto", "File size must be less than 2 MB");
+                return View(productVM);
+            }
+
+
+
+
 
             bool result = productVM.Categories.Any(c => c.Id == productVM.CategoryId);
             if (!result)
@@ -70,12 +108,49 @@ namespace Pronia.Areas.Admin.Controllers
 
                 if (tagResult)
                 {
-                    ModelState.AddModelError(nameof(CreateProductVM.TagIds), "Tags are worng");
+                    ModelState.AddModelError(nameof(CreateProductVM.TagIds), "Tags are wrong");
+                    return View();
+                }
+            }
+
+            if (productVM.ColorIds is not null)
+            {
+                bool colorResult = productVM.ColorIds.Any(cId => !productVM.Colors.Exists(c => c.Id == cId));
+
+                if (colorResult)
+                {
+                    ModelState.AddModelError(nameof(CreateProductVM.ColorIds), "Colors are wrong");
+                    return View();
+                }
+            }
+
+            if (productVM.SizeIds is not null)
+            {
+                bool sizeResult = productVM.SizeIds.Any(sId => !productVM.Sizes.Exists(s => s.Id == sId));
+
+                if (sizeResult)
+                {
+                    ModelState.AddModelError(nameof(CreateProductVM.SizeIds), "Sizes are wrong");
                     return View();
                 }
             }
 
 
+            ProductImage mainImage = new()
+            {
+                ImageUrl = await productVM.MainPhoto.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images"),
+                IsPrimary = true,
+                CreatedAt = DateTime.Now,
+                IsDeleted = false
+            };
+
+            ProductImage hoverImage = new()
+            {
+                ImageUrl = await productVM.HoverPhoto.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images"),
+                IsPrimary = false,
+                CreatedAt = DateTime.Now,
+                IsDeleted = false
+            };
 
             Product product = new()
             {
@@ -86,12 +161,16 @@ namespace Pronia.Areas.Admin.Controllers
                 Price = productVM.Price.Value,
                 CreatedAt = DateTime.Now,
                 IsDeleted = false,
+                ProductImages = new List<ProductImage>
+                {
+                    mainImage, hoverImage
+                }
             };
+
 
             if (productVM.TagIds is not null)
             {
                 product.ProductTags = productVM.TagIds.Select(tId => new ProductTag { TagId = tId }).ToList();
-
             }
 
             //Yuxarida daha qisa yazlis
@@ -105,6 +184,18 @@ namespace Pronia.Areas.Admin.Controllers
             //    });
             //}
 
+            if (productVM.ColorIds is not null)
+            {
+                product.ProductColors = productVM.ColorIds.Select(cId => new ProductColor { ColorId = cId }).ToList();
+            }
+
+            if (productVM.SizeIds is not null)
+            {
+                product.ProductSizes = productVM.SizeIds.Select(sId => new ProductSize { SizeId = sId }).ToList();
+            }
+
+
+
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
 
@@ -115,56 +206,162 @@ namespace Pronia.Areas.Admin.Controllers
         {
             if (id == null || id < 1) { return BadRequest(); }
 
-            Product product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            Product product = await _context.Products
+                .Include(p => p.ProductTags)
+                .Include(p => p.ProductColors)
+                .Include(p => p.ProductSizes)
+                .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null) { return NotFound(); }
 
-            UpdateProductAdminVM productAdminVM = new()
+            UpdateProductVM productVM = new()
             {
                 Name = product.Name,
                 SKU = product.SKU,
                 CategoryId = product.CategoryId,
                 Description = product.Description,
                 Price = product.Price,
+
                 TagIds = product.ProductTags.Select(pt => pt.TagId).ToList(),
+                ColorIds = product.ProductColors.Select(pc => pc.ColorId).ToList(),
+                SizeIds = product.ProductSizes.Select(ps => ps.SizeId).ToList(),
+
                 Categories = await _context.Categories.ToListAsync(),
-                Tags = await _context.Tags.ToListAsync()
+                Tags = await _context.Tags.ToListAsync(),
+                Colors = await _context.Colors.ToListAsync(),
+                Sizes = await _context.Sizes.ToListAsync()
+
             };
 
-            return View(productAdminVM);
+            return View(productVM);
         }
 
         [HttpPost]
 
-        public async Task<IActionResult> Update(int? id, UpdateProductAdminVM productAdminVM)
+        public async Task<IActionResult> Update(int? id, UpdateProductVM productVM)
         {
             if (id == null || id < 1) { return BadRequest(); }
 
-            productAdminVM.Categories = await _context.Categories.ToListAsync();
+            productVM.Categories = await _context.Categories.ToListAsync();
+            productVM.Tags = await _context.Tags.ToListAsync();
+            productVM.Colors = await _context.Colors.ToListAsync();
+            productVM.Sizes = await _context.Sizes.ToListAsync();
+
+
 
             if (!ModelState.IsValid)
             {
-                return View(productAdminVM);
+                return View(productVM);
             }
 
-            Product existed = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            Product existed = await _context.Products
+                .Include(p => p.ProductTags)
+                .Include(p => p.ProductColors)
+                .Include(p => p.ProductSizes)
+                .FirstOrDefaultAsync(p => p.Id == id);
 
             if (existed == null) { return NotFound(); }
 
-            if (existed.CategoryId != productAdminVM.CategoryId)
+            if (existed.CategoryId != productVM.CategoryId)
             {
-                bool result = productAdminVM.Categories.Any(c => c.Id == productAdminVM.CategoryId);
+                bool result = productVM.Categories.Any(c => c.Id == productVM.CategoryId);
                 if (!result)
                 {
-                    return View(productAdminVM);
+                    return View(productVM);
                 }
             }
 
-            existed.SKU = productAdminVM.SKU;
-            existed.Price = productAdminVM.Price.Value;
-            existed.CategoryId = productAdminVM.CategoryId.Value;
-            existed.Description = productAdminVM.Description;
-            existed.Name = productAdminVM.Name;
+
+            if (productVM.TagIds is not null)
+            {
+                bool tagResult = productVM.TagIds.Any(tId => !productVM.Tags.Exists(t => t.Id == tId));
+
+                if (tagResult)
+                {
+                    ModelState.AddModelError(nameof(UpdateProductVM.TagIds), "Tags are wrong");
+                    return View();
+                }
+            }
+
+            if (productVM.ColorIds is not null)
+            {
+                bool colorResult = productVM.ColorIds.Any(cId => !productVM.Colors.Exists(c => c.Id == cId));
+
+                if (colorResult)
+                {
+                    ModelState.AddModelError(nameof(UpdateProductVM.ColorIds), "Colors are wrong");
+                    return View();
+                }
+            }
+
+            if (productVM.SizeIds is not null)
+            {
+                bool sizeResult = productVM.SizeIds.Any(sId => !productVM.Sizes.Exists(s => s.Id == sId));
+
+                if (sizeResult)
+                {
+                    ModelState.AddModelError(nameof(UpdateProductVM.SizeIds), "Sizes are wrong");
+                    return View();
+                }
+            }
+
+
+            if (productVM.TagIds is null)
+            {
+                productVM.TagIds = new();
+            }
+            else
+            {
+                productVM.TagIds = productVM.TagIds.Distinct().ToList();
+            }
+            _context.ProductTags.RemoveRange(existed.ProductTags.Where(pTag => !productVM.TagIds.Exists(tId => tId == pTag.TagId)).ToList());
+
+            _context.ProductTags.AddRange(productVM.TagIds
+            .Where(tId => !existed.ProductTags.Exists(pTag => pTag.TagId == tId))
+            .ToList()
+            .Select(tId => new ProductTag { TagId = tId, ProductId = existed.Id }));
+
+
+
+            if (productVM.ColorIds is null)
+            {
+                productVM.ColorIds = new();
+            }
+            else
+            {
+                productVM.ColorIds = productVM.ColorIds.Distinct().ToList();
+            }
+            _context.ProductColors.RemoveRange(existed.ProductColors.Where(pColor => !productVM.ColorIds.Exists(cId => cId == pColor.ColorId)).ToList());
+
+            _context.ProductColors.AddRange(productVM.ColorIds
+            .Where(cId => !existed.ProductColors.Exists(pColor => pColor.ColorId == cId))
+            .ToList()
+            .Select(cId => new ProductColor { ColorId = cId, ProductId = existed.Id }));
+
+
+
+            if (productVM.SizeIds is null)
+            {
+                productVM.SizeIds = new();
+            }
+            else
+            {
+                productVM.SizeIds = productVM.SizeIds.Distinct().ToList();
+            }
+            _context.ProductSizes.RemoveRange(existed.ProductSizes.Where(pSize => !productVM.SizeIds.Exists(sId => sId == pSize.SizeId)).ToList());
+
+            _context.ProductSizes.AddRange(productVM.SizeIds
+            .Where(sId => !existed.ProductSizes.Exists(pSize => pSize.SizeId == sId))
+            .ToList()
+            .Select(sId => new ProductSize { SizeId = sId, ProductId = existed.Id }));
+
+
+
+            existed.SKU = productVM.SKU;
+            existed.Price = productVM.Price.Value;
+            existed.CategoryId = productVM.CategoryId.Value;
+            existed.Description = productVM.Description;
+            existed.Name = productVM.Name;
 
             await _context.SaveChangesAsync();
 

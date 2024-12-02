@@ -28,6 +28,8 @@ namespace Pronia.Controllers
                 .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary)) //true,false,null ardcilligi
                 .Include(p => p.Category)
                 .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
+                .Include(p => p.ProductColors).ThenInclude(pc => pc.Color)
+                .Include(p => p.ProductSizes).ThenInclude(ps => ps.Size)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null) { return NotFound(); }
