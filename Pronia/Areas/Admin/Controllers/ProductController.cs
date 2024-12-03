@@ -33,8 +33,7 @@ namespace Pronia.Areas.Admin.Controllers
                     CategoryName = p.Category.Name,
                     Image = p.ProductImages.FirstOrDefault(p => p.IsPrimary == true).ImageUrl
 
-                })
-                .ToListAsync();
+                }).ToListAsync();
             return View(productsVMs);
         }
 
@@ -190,6 +189,7 @@ namespace Pronia.Areas.Admin.Controllers
 
                 foreach (IFormFile file in productVM.AdditionalPhotos)
                 {
+
                     if (!file.ValidateType("image/"))
                     {
                         text +=
@@ -212,7 +212,6 @@ namespace Pronia.Areas.Admin.Controllers
                     });
                 }
                 TempData["FileWarning"] = text;
-
             }
 
             await _context.Products.AddAsync(product);
@@ -251,7 +250,6 @@ namespace Pronia.Areas.Admin.Controllers
                 Tags = await _context.Tags.ToListAsync(),
                 Colors = await _context.Colors.ToListAsync(),
                 Sizes = await _context.Sizes.ToListAsync()
-
             };
 
             return View(productVM);
@@ -328,7 +326,8 @@ namespace Pronia.Areas.Admin.Controllers
             }
 
 
-            #region ColorSizeTag
+            #region Tag
+
             if (productVM.TagIds is not null)
             {
                 bool tagResult = productVM.TagIds.Any(tId => !productVM.Tags.Exists(t => t.Id == tId));
@@ -336,28 +335,6 @@ namespace Pronia.Areas.Admin.Controllers
                 if (tagResult)
                 {
                     ModelState.AddModelError(nameof(UpdateProductVM.TagIds), "Tags are wrong");
-                    return View();
-                }
-            }
-
-            if (productVM.ColorIds is not null)
-            {
-                bool colorResult = productVM.ColorIds.Any(cId => !productVM.Colors.Exists(c => c.Id == cId));
-
-                if (colorResult)
-                {
-                    ModelState.AddModelError(nameof(UpdateProductVM.ColorIds), "Colors are wrong");
-                    return View();
-                }
-            }
-
-            if (productVM.SizeIds is not null)
-            {
-                bool sizeResult = productVM.SizeIds.Any(sId => !productVM.Sizes.Exists(s => s.Id == sId));
-
-                if (sizeResult)
-                {
-                    ModelState.AddModelError(nameof(UpdateProductVM.SizeIds), "Sizes are wrong");
                     return View();
                 }
             }
@@ -371,14 +348,28 @@ namespace Pronia.Areas.Admin.Controllers
             {
                 productVM.TagIds = productVM.TagIds.Distinct().ToList();
             }
+
+
             _context.ProductTags.RemoveRange(existed.ProductTags.Where(pTag => !productVM.TagIds.Exists(tId => tId == pTag.TagId)).ToList());
+
 
             _context.ProductTags.AddRange(productVM.TagIds
             .Where(tId => !existed.ProductTags.Exists(pTag => pTag.TagId == tId))
             .ToList()
             .Select(tId => new ProductTag { TagId = tId, ProductId = existed.Id }));
 
+            #endregion
 
+            if (productVM.ColorIds is not null)
+            {
+                bool colorResult = productVM.ColorIds.Any(cId => !productVM.Colors.Exists(c => c.Id == cId));
+
+                if (colorResult)
+                {
+                    ModelState.AddModelError(nameof(UpdateProductVM.ColorIds), "Colors are wrong");
+                    return View();
+                }
+            }
 
             if (productVM.ColorIds is null)
             {
@@ -397,6 +388,29 @@ namespace Pronia.Areas.Admin.Controllers
 
 
 
+
+            if (productVM.SizeIds is not null)
+            {
+                bool sizeResult = productVM.SizeIds.Any(sId => !productVM.Sizes.Exists(s => s.Id == sId));
+
+                if (sizeResult)
+                {
+                    ModelState.AddModelError(nameof(UpdateProductVM.SizeIds), "Sizes are wrong");
+                    return View();
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
             if (productVM.SizeIds is null)
             {
                 productVM.SizeIds = new();
@@ -412,7 +426,6 @@ namespace Pronia.Areas.Admin.Controllers
             .ToList()
             .Select(sId => new ProductSize { SizeId = sId, ProductId = existed.Id }));
 
-            #endregion
 
 
 
@@ -453,7 +466,7 @@ namespace Pronia.Areas.Admin.Controllers
             {
                 productVM.ImageIds = new List<int>();
             }
-            List<ProductImage> deletedImages = existed.ProductImages.Where(pi => !productVM.ImageIds.Exists(imgId => imgId == pi.Id) && pi.IsPrimary == null).ToList();
+            var deletedImages = existed.ProductImages.Where(pi => !productVM.ImageIds.Exists(imgId => imgId == pi.Id) && pi.IsPrimary == null).ToList();
 
             deletedImages.ForEach(di => di.ImageUrl.DeleteFile(_env.WebRootPath, "assets", "images", "website-images"));
 
