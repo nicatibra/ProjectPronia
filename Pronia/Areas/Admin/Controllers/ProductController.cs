@@ -24,14 +24,15 @@ namespace Pronia.Areas.Admin.Controllers
         {
             List<GetProductAdminVM> productsVMs = await _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
+                .Include(p => p.ProductImages)
                 .Select(p => new GetProductAdminVM
                 {
                     Id = p.Id,
                     Name = p.Name,
                     Price = p.Price,
                     CategoryName = p.Category.Name,
-                    Image = p.ProductImages[0].ImageUrl
+                    Image = p.ProductImages.FirstOrDefault(p => p.IsPrimary == true).ImageUrl
+
                 })
                 .ToListAsync();
             return View(productsVMs);
@@ -183,8 +184,36 @@ namespace Pronia.Areas.Admin.Controllers
                 product.ProductSizes = productVM.SizeIds.Select(sId => new ProductSize { SizeId = sId }).ToList();
             }
 
+            if (productVM.AdditionalPhotos is not null)
+            {
+                string text = string.Empty;
 
+                foreach (IFormFile file in productVM.AdditionalPhotos)
+                {
+                    if (!file.ValidateType("image/"))
+                    {
+                        text +=
+                            $"<p class=\"text-danger\">Type of {file.FileName} must be image!</p>";
+                        continue;
+                    }
 
+                    if (!file.ValidateSize(FileSize.MB, 2))
+                    {
+                        text += $"<p class=\"text-danger\">Size of {file.FileName} must be less than 2 MB!</p>";
+                        continue;
+                    }
+
+                    product.ProductImages.Add(new ProductImage
+                    {
+                        ImageUrl = await file.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images"),
+                        CreatedAt = DateTime.Now,
+                        IsDeleted = false,
+                        IsPrimary = null
+                    });
+                }
+                TempData["FileWarning"] = text;
+
+            }
 
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
@@ -299,6 +328,7 @@ namespace Pronia.Areas.Admin.Controllers
             }
 
 
+            #region ColorSizeTag
             if (productVM.TagIds is not null)
             {
                 bool tagResult = productVM.TagIds.Any(tId => !productVM.Tags.Exists(t => t.Id == tId));
@@ -382,6 +412,9 @@ namespace Pronia.Areas.Admin.Controllers
             .ToList()
             .Select(sId => new ProductSize { SizeId = sId, ProductId = existed.Id }));
 
+            #endregion
+
+
 
             if (productVM.MainPhoto is not null)
             {
@@ -420,17 +453,16 @@ namespace Pronia.Areas.Admin.Controllers
             {
                 productVM.ImageIds = new List<int>();
             }
-
             List<ProductImage> deletedImages = existed.ProductImages.Where(pi => !productVM.ImageIds.Exists(imgId => imgId == pi.Id) && pi.IsPrimary == null).ToList();
 
             deletedImages.ForEach(di => di.ImageUrl.DeleteFile(_env.WebRootPath, "assets", "images", "website-images"));
 
             _context.ProductImages.RemoveRange(deletedImages);
 
-
-            string text = string.Empty;
             if (productVM.AdditionalPhotos is not null)
             {
+                string text = string.Empty;
+
                 foreach (IFormFile file in productVM.AdditionalPhotos)
                 {
                     if (!file.ValidateType("image/"))
@@ -454,13 +486,9 @@ namespace Pronia.Areas.Admin.Controllers
                         IsPrimary = null
                     });
                 }
+                TempData["FileWarning"] = text;
+
             }
-
-
-            TempData["FileWarning"] = text;
-
-
-
 
 
 
@@ -473,8 +501,6 @@ namespace Pronia.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
-
-
 
         }
 

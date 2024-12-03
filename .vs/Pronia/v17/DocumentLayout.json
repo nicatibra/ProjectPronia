@@ -69,7 +69,7 @@
               "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAAwwGYBAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T18:37:27.532Z",
               "IsPinned": true,
@@ -85,8 +85,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAAwBAAAAAAAAAAAAAB0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T07:59:12.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:59:12.875Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "ViewState": "AgIAAEoAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T07:33:48.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:33:48.602Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\ViewModels\\Products\\UpdateProductVM.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA5wCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:32:51.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:32:51.005Z"
             },
             {
               "$type": "Document",
@@ -124,8 +121,7 @@
               "RelativeToolTip": "Pronia\\Views\\Shop\\Detail.cshtml",
               "ViewState": "AgIAAMUBAAAAAAAAAAAAANsBAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T07:24:59.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:24:59.955Z"
             },
             {
               "$type": "Document",
@@ -137,8 +133,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T07:23:42.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:23:42.681Z"
             },
             {
               "$type": "Document",
@@ -150,8 +145,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T20:38:37.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T20:38:37.851Z"
             },
             {
               "$type": "Document",
@@ -163,8 +157,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\ViewModels\\Products\\CreateProductVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T20:37:58.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T20:37:58.498Z"
             }
           ]
         }
