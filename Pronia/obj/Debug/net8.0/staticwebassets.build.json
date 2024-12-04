@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2fcz4PD1wcpleYxqvGROJ+Md+Tpiggx86j9Dum1BkX0=",
+  "Hash": "Yb6zZ4afrTkiNJX5xgs4M02KOZbmMg1diid7cByY4gM=",
   "Source": "Pronia",
   "BasePath": "_content/Pronia",
   "Mode": "Default",
@@ -5204,6 +5204,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\2-3-70x78.png"
     },
     {
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\289ef986-3d8e-4875-af4d-af9d6594a508.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/289ef986-3d8e-4875-af4d-af9d6594a508.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\289ef986-3d8e-4875-af4d-af9d6594a508.png"
+    },
+    {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3.png",
       "SourceId": "Pronia",
       "SourceType": "Discovered",
@@ -5278,6 +5297,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\5974414e-d931-496d-a548-07fa8ca7db14.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\62fca594-c6cb-4e31-b934-4f2161c393c4.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/62fca594-c6cb-4e31-b934-4f2161c393c4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\62fca594-c6cb-4e31-b934-4f2161c393c4.png"
     },
     {
       "Identity": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\951e67c5-c55d-4ce1-895a-cd62a5dbd3f3.png",
