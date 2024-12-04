@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
@@ -9,6 +10,8 @@ using Pronia.Utilities.Extensions;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    //hem adminin hem moderatorun access-i var
+    [Authorize(Roles = "Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -19,6 +22,8 @@ namespace Pronia.Areas.Admin.Controllers
             _context = context;
             _env = env;
         }
+
+        //---------------------------
 
         public async Task<IActionResult> Index()
         {
@@ -36,6 +41,8 @@ namespace Pronia.Areas.Admin.Controllers
                 }).ToListAsync();
             return View(productsVMs);
         }
+
+        //---------------------------
 
         public async Task<IActionResult> Create()
         {
@@ -220,6 +227,9 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //---------------------------
+        //ancaq adminin access-i var
+
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }
@@ -256,7 +266,6 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> Update(int? id, UpdateProductVM productVM)
         {
             if (id == null || id < 1) { return BadRequest(); }
@@ -401,16 +410,6 @@ namespace Pronia.Areas.Admin.Controllers
             }
 
 
-
-
-
-
-
-
-
-
-
-
             if (productVM.SizeIds is null)
             {
                 productVM.SizeIds = new();
@@ -516,6 +515,8 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+
+        //---------------------------
 
     }
 }

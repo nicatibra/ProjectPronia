@@ -23,8 +23,12 @@
                                     Name
                                 </th>
                                 <th>
+                                    Products Count
+                                </th>
+                                <th>
                                     Settings
                                 </th>
+                                
 
                             </tr>
                         </thead>
@@ -40,6 +44,9 @@
                                    
                                     <td>
                                         @tag.Name
+                                    </td>
+                                    <td>
+                                        @tag.ProductTags.Count
                                     </td>
                                     <td>
                                         <a asp-action="update" asp-route-id="@tag.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>

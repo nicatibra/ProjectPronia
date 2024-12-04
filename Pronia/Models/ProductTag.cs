@@ -10,5 +10,6 @@
         public Product Product { get; set; }
 
         public Tag Tag { get; set; }
+
     }
 }

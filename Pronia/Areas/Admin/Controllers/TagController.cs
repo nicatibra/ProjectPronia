@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels.Tags;
 using Pronia.DAL;
@@ -7,6 +8,8 @@ using Pronia.Models;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,Moderator")]
+
     public class TagController : Controller
     {
         private readonly AppDbContext _context;
@@ -19,7 +22,7 @@ namespace Pronia.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<Tag> tags = await _context.Tags.ToListAsync();
+            List<Tag> tags = await _context.Tags.Include(t => t.ProductTags).ToListAsync();
             return View(tags);
         }
 

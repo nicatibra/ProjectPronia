@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
@@ -9,6 +10,7 @@ using Pronia.Models;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,Moderator")]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
@@ -70,6 +72,9 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }
@@ -120,6 +125,9 @@ namespace Pronia.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> Delete(int? id)
         {
