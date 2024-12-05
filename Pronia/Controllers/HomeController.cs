@@ -8,6 +8,7 @@ namespace Pronia.Controllers
     public class HomeController : Controller
     {
         public readonly AppDbContext _context;
+
         public HomeController(AppDbContext context)
         {
             _context = context;
