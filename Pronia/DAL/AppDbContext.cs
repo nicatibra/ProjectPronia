@@ -35,5 +35,9 @@ namespace Pronia.DAL
 
 
 
+        public DbSet<LayoutSetting> LayoutSettings { get; set; }
+
+
+
     }
 }

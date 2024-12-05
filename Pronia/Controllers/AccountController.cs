@@ -32,6 +32,7 @@ namespace Pronia.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterVM userVM)
         {
+
             if (!ModelState.IsValid)
             {
                 return View();
@@ -45,6 +46,7 @@ namespace Pronia.Controllers
                 Email = userVM.Email,
             };
 
+            //user yaratmaq ucun + if ile prof yaranmasa error mesaji cixarmaq
             IdentityResult result = await _userManager.CreateAsync(user, userVM.Password);
             if (!result.Succeeded)
             {
@@ -55,8 +57,10 @@ namespace Pronia.Controllers
                 }
             }
 
+            //teze hesab yaradanda avtomatik rol vermesi ucun
             await _userManager.AddToRoleAsync(user, UserRole.Member.ToString());
 
+            //register olanda avtomatik login olmasi ucundu
             await _signInManager.SignInAsync(user, isPersistent: false);
 
             return RedirectToAction(nameof(HomeController.Index), "Home");

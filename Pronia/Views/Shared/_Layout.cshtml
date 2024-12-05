@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using Pronia.Services.Interfaces
+@inject ILayoutService _layoutService
+
+@{
+    Dictionary<string, string> settings = await _layoutService.GetSettingsAsync();
+}
+
+<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <meta charset="UTF-8" />
@@ -97,11 +104,11 @@
                             <div class="header-middle-wrap position-relative">
                                 <div class="header-contact d-none d-lg-flex">
                                     <i class="pe-7s-call"></i>
-                                    <a href="tel://+00-123-456-789">+00 123 456 789</a>
+                                    <a href="tel://@settings["Phone"]">@settings["Phone"]</a>
                                 </div>
 
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
+                                    <img src="~/assets/images/@settings["Logo"]" alt="Header Logo" />
                                 </a>
 
                                 <div class="header-right">
@@ -111,7 +118,7 @@
                                                class="search-btn bt"
                                                data-bs-toggle="modal"
                                                data-bs-target="#exampleModal">
-                                                <i class="pe-7s-search"></i>
+                                                @Html.Raw(@settings["SearchIcon"])
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
@@ -307,7 +314,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-6">
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
+                                    <img src="~/assets/images/logo/@settings["Logo"]" alt="Header Logo" />
                                 </a>
                             </div>
                             <div class="col-lg-6 d-none d-lg-block">
@@ -439,7 +446,7 @@
                                                class="search-btn bt"
                                                data-bs-toggle="modal"
                                                data-bs-target="#exampleModal">
-                                                <i class="pe-7s-search"></i>
+                                               @Html.Raw(@settings["SearchIcon"])
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
@@ -493,7 +500,7 @@
                         </div>
                         <div class="header-contact offcanvas-contact">
                             <i class="pe-7s-call"></i>
-                            <a href="tel://+00-123-456-789">+00 123 456 789</a>
+                            <a href="tel://@settings["Phone"]">@settings["Phone"]</a>
                         </div>
                         <div class="offcanvas-user-info">
                             <ul class="dropdown-wrap">
@@ -806,7 +813,8 @@
                                     <button class="search-btn"
                                             type="submit"
                                             aria-label="searchbtn">
-                                        <i class="pe-7s-search"></i>
+                                        @Html.Raw(@settings["SearchIcon"])
+
                                     </button>
                                 </form>
                             </div>
@@ -924,7 +932,7 @@
                             <div class="footer-widget-item">
                                 <div class="footer-widget-logo">
                                     <a href="index.html">
-                                        <img src="~/assets/images/logo/dark.png" alt="Logo" />
+                                        <img src="~/assets/images/logo/@settings["Logo"]" alt="Logo" />
                                     </a>
                                 </div>
                                 <p class="footer-widget-desc">
@@ -933,7 +941,7 @@
                                 <div class="social-link with-border">
                                     <ul>
                                         <li>
-                                            <a href="#"
+                                            <a href="@settings["FacebookLink"]"
                                                data-tippy="Facebook"
                                                data-tippy-inertia="true"
                                                data-tippy-animation="shift-away"
@@ -1049,10 +1057,10 @@
                         <div class="col-lg-3 pt-40">
                             <div class="footer-contact-info">
                                 <h3 class="footer-widget-title">Got Question? Call Us</h3>
-                                <a class="number" href="tel://123-456-789">123 456 789</a>
+                                <a class="number" href="tel://@settings["Phone"]">@settings["Phone"]</a>
                                 <div class="address">
                                     <ul>
-                                        <li>Your Address Goes Here</li>
+                                        <li>@settings["Address"]</li>
                                     </ul>
                                 </div>
                             </div>
