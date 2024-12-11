@@ -36,6 +36,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create(CreateSlideVM slideVM)
         {
             if (!ModelState.IsValid) { return View(); };
@@ -93,6 +95,8 @@ namespace Pronia.Areas.Admin.Controllers
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Update(int? id, UpdateSlideVM slideVM)
         {
             if (id == null || id < 1) { return BadRequest(); }

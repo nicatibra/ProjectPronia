@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\admin\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\documentation\\documentation.html",
+      "PackagePath": "staticwebassets\\admin\\documentation\\documentation.html"
+    },
+    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
       "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
     },
@@ -275,6 +279,66 @@
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\js\\template.js",
       "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_sidebar.html"
     },
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\admin\\scss\\_background.scss",
@@ -901,10 +965,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\testimonial\\user\\3.png"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\0e8b72c3-04dc-4cd8-b5fc-457e6507cbc7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\0e8b72c3-04dc-4cd8-b5fc-457e6507cbc7.png"
-    },
-    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1--1rnu4p.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1--1rnu4p.png"
     },
@@ -1065,10 +1125,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1.png"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1c5989cc-73dc-415a-a401-9eb6436ceaeb.gif",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1c5989cc-73dc-415a-a401-9eb6436ceaeb.gif"
-    },
-    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2-1-370x270.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2-1-370x270.webp"
     },
@@ -1093,44 +1149,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2.png"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\289ef986-3d8e-4875-af4d-af9d6594a508.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\289ef986-3d8e-4875-af4d-af9d6594a508.png"
-    },
-    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3b3d9f72-57c8-4a84-8e56-9f320463d62f.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3b3d9f72-57c8-4a84-8e56-9f320463d62f.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\45dfad4b-b3bb-4bc4-8177-8bb3facd08e3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\45dfad4b-b3bb-4bc4-8177-8bb3facd08e3.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5974414e-d931-496d-a548-07fa8ca7db14.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5974414e-d931-496d-a548-07fa8ca7db14.jpg"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\62fca594-c6cb-4e31-b934-4f2161c393c4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\62fca594-c6cb-4e31-b934-4f2161c393c4.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\951e67c5-c55d-4ce1-895a-cd62a5dbd3f3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\951e67c5-c55d-4ce1-895a-cd62a5dbd3f3.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\99513fdc-6821-4802-a6e2-cd0d65177616.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\99513fdc-6821-4802-a6e2-cd0d65177616.png"
     },
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Allium.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\Allium.webp"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Azad.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Azad.jpg"
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Flower1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\Flower1.png"
     },
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\Flower2.png",
@@ -1193,10 +1221,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\TorchMain.png"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\c4d1558b-604a-4597-a279-336c70f98cc8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\c4d1558b-604a-4597-a279-336c70f98cc8.png"
-    },
-    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\car.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\car.png"
     },
@@ -1205,20 +1229,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\card.png"
     },
     {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\cc688d46-51b0-4115-acc3-38141546760e.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\cc688d46-51b0-4115-acc3-38141546760e.png"
-    },
-    {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\dark.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\dark.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\ecd0b266-cdaf-4402-93da-529bef358139.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\ecd0b266-cdaf-4402-93da-529bef358139.png"
-    },
-    {
-      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\f60efe62-8766-45ea-b1a4-804fe62d5e6a.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\f60efe62-8766-45ea-b1a4-804fe62d5e6a.png"
     },
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\quotation.png",
@@ -1419,6 +1431,2558 @@
     {
       "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\scss\\style.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ace.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ace.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-beautify.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-beautify.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-code_lens.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-code_lens.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-elastic_tabstops_lite.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-elastic_tabstops_lite.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-emmet.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-emmet.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-error_marker.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-error_marker.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-keybinding_menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-keybinding_menu.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-language_tools.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-language_tools.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-linking.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-linking.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-modelist.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-modelist.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-options.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-options.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-prompt.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-prompt.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-rtl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-rtl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-searchbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-searchbox.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-settings_menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-settings_menu.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-spellcheck.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-spellcheck.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-split.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-split.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-static_highlight.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-static_highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-statusbar.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-statusbar.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-textarea.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-textarea.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-themelist.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-themelist.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\ext-whitespace.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\ext-whitespace.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\keybinding-emacs.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\keybinding-emacs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\keybinding-sublime.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\keybinding-sublime.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\keybinding-vim.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\keybinding-vim.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\keybinding-vscode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\keybinding-vscode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-abap.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-abap.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-abc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-abc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-actionscript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-actionscript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ada.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ada.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-alda.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-alda.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-apache_conf.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-apache_conf.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-apex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-apex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-applescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-applescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-aql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-aql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-asciidoc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-asciidoc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-asl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-asl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-assembly_x86.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-assembly_x86.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-autohotkey.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-autohotkey.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-batchfile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-batchfile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-c9search.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-c9search.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-c_cpp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-c_cpp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-cirru.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-cirru.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-clojure.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-clojure.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-cobol.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-cobol.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-coffee.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-coffee.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-coldfusion.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-coldfusion.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-crystal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-crystal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-csharp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-csharp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-csound_document.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-csound_document.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-csound_orchestra.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-csound_orchestra.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-csound_score.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-csound_score.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-csp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-csp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-css.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-css.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-curly.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-curly.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-d.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-d.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-dart.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-dart.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-diff.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-diff.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-django.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-django.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-dockerfile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-dockerfile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-dot.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-dot.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-drools.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-drools.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-edifact.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-edifact.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-eiffel.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-eiffel.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ejs.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ejs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-elixir.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-elm.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-elm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-erlang.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-erlang.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-forth.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-forth.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-fortran.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-fortran.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-fsharp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-fsharp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-fsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-fsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ftl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ftl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-gcode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-gcode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-gherkin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-gherkin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-gitignore.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-gitignore.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-glsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-glsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-gobstones.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-gobstones.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-golang.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-golang.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-graphqlschema.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-graphqlschema.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-groovy.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-groovy.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-haml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-haml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-handlebars.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-handlebars.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-haskell.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-haskell.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-haskell_cabal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-haskell_cabal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-haxe.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-haxe.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-hjson.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-hjson.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-html.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-html.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-html_elixir.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-html_elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-html_ruby.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-html_ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ini.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ini.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-io.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-io.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jack.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jack.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jade.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jade.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-java.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-java.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-javascript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-json.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-json.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-json5.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-json5.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jsoniq.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jsoniq.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jsp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jsp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jssm.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jssm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-jsx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-jsx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-julia.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-julia.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-kotlin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-kotlin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-latex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-latex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-less.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-less.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-liquid.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-liquid.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-lisp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-lisp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-livescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-livescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-logiql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-logiql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-logtalk.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-logtalk.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-lsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-lsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-lua.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-lua.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-luapage.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-luapage.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-lucene.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-lucene.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-makefile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-makefile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-markdown.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-markdown.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mask.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mask.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-matlab.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-matlab.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-maze.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-maze.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mediawiki.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mediawiki.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mel.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mel.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mixal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mixal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mushcode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mushcode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-mysql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-mysql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-nginx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-nginx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-nim.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-nim.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-nix.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-nix.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-nsis.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-nsis.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-nunjucks.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-nunjucks.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-objectivec.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-objectivec.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ocaml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ocaml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-pascal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-pascal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-perl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-perl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-perl6.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-perl6.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-pgsql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-pgsql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-php.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-php.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-php_laravel_blade.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-php_laravel_blade.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-pig.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-pig.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-plain_text.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-plain_text.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-powershell.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-powershell.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-praat.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-praat.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-prisma.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-prisma.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-prolog.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-prolog.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-properties.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-properties.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-protobuf.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-protobuf.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-puppet.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-puppet.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-python.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-python.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-qml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-qml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-r.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-r.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-razor.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-razor.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-rdoc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-rdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-red.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-red.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-redshift.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-redshift.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-rhtml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-rhtml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-rst.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-rst.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-ruby.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-rust.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-rust.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sass.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sass.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-scad.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-scad.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-scala.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-scala.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-scheme.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-scheme.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-scss.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-scss.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sh.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sh.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sjs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-slim.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-slim.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-smarty.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-smarty.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-snippets.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-snippets.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-soy_template.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-soy_template.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-space.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-space.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sparql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sparql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-sqlserver.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-sqlserver.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-stylus.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-stylus.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-svg.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-svg.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-swift.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-swift.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-tcl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-tcl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-terraform.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-terraform.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-tex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-tex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-text.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-text.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-textile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-textile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-toml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-toml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-tsx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-tsx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-turtle.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-turtle.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-twig.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-twig.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-typescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-typescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-vala.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-vala.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-vbscript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-vbscript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-velocity.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-velocity.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-verilog.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-verilog.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-vhdl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-vhdl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-visualforce.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-visualforce.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-wollok.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-wollok.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-xml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-xml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-xquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-xquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-yaml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-yaml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\mode-zeek.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\mode-zeek.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\abap.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\abap.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\abc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\abc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\actionscript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\actionscript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ada.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ada.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\alda.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\alda.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\apache_conf.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\apache_conf.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\apex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\apex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\applescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\applescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\aql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\aql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\asciidoc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\asciidoc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\asl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\asl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\assembly_x86.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\assembly_x86.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\autohotkey.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\autohotkey.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\batchfile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\batchfile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\c9search.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\c9search.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\c_cpp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\c_cpp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\cirru.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\cirru.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\clojure.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\clojure.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\cobol.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\cobol.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\coffee.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\coffee.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\coldfusion.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\coldfusion.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\crystal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\crystal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\csharp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\csharp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_document.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_document.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_orchestra.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_orchestra.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_score.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\csound_score.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\csp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\csp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\css.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\css.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\curly.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\curly.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\d.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\d.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\dart.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\dart.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\diff.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\diff.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\django.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\django.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\dockerfile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\dockerfile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\dot.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\dot.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\drools.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\drools.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\edifact.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\edifact.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\eiffel.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\eiffel.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ejs.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ejs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\elixir.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\elm.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\elm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\erlang.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\erlang.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\forth.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\forth.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\fortran.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\fortran.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\fsharp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\fsharp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\fsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\fsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ftl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ftl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\gcode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\gcode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\gherkin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\gherkin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\gitignore.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\gitignore.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\glsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\glsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\gobstones.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\gobstones.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\golang.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\golang.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\graphqlschema.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\graphqlschema.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\groovy.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\groovy.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\haml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\haml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\handlebars.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\handlebars.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\haskell.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\haskell.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\haskell_cabal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\haskell_cabal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\haxe.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\haxe.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\hjson.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\hjson.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\html.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\html.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\html_elixir.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\html_elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\html_ruby.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\html_ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ini.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ini.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\io.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\io.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jack.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jack.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jade.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jade.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\java.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\java.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\javascript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\json.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\json.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\json5.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\json5.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsoniq.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsoniq.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jssm.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jssm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\jsx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\julia.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\julia.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\kotlin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\kotlin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\latex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\latex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\less.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\less.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\liquid.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\liquid.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\lisp.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\lisp.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\livescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\livescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\logiql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\logiql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\logtalk.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\logtalk.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\lsl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\lsl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\lua.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\lua.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\luapage.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\luapage.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\lucene.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\lucene.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\makefile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\makefile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\markdown.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\markdown.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mask.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mask.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\matlab.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\matlab.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\maze.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\maze.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mediawiki.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mediawiki.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mel.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mel.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mixal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mixal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mushcode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mushcode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\mysql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\mysql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\nginx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\nginx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\nim.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\nim.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\nix.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\nix.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\nsis.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\nsis.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\nunjucks.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\nunjucks.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\objectivec.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\objectivec.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ocaml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ocaml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\pascal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\pascal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\perl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\perl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\perl6.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\perl6.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\pgsql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\pgsql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\php.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\php.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\php_laravel_blade.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\php_laravel_blade.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\pig.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\pig.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\plain_text.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\plain_text.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\powershell.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\powershell.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\praat.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\praat.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\prisma.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\prisma.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\prolog.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\prolog.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\properties.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\properties.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\protobuf.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\protobuf.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\puppet.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\puppet.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\python.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\python.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\qml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\qml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\r.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\r.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\razor.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\razor.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\rdoc.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\rdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\red.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\red.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\redshift.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\redshift.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\rhtml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\rhtml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\rst.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\rst.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\ruby.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\rust.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\rust.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sass.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sass.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\scad.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\scad.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\scala.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\scala.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\scheme.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\scheme.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\scss.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\scss.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sh.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sh.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sjs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\slim.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\slim.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\smarty.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\smarty.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\snippets.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\snippets.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\soy_template.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\soy_template.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\space.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\space.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sparql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sparql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sql.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sql.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\sqlserver.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\sqlserver.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\stylus.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\stylus.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\svg.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\svg.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\swift.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\swift.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\tcl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\tcl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\terraform.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\terraform.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\tex.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\tex.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\text.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\text.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\textile.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\textile.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\toml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\toml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\tsx.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\tsx.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\turtle.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\turtle.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\twig.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\twig.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\typescript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\typescript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\vala.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\vala.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\vbscript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\vbscript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\velocity.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\velocity.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\verilog.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\verilog.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\vhdl.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\vhdl.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\visualforce.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\visualforce.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\wollok.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\wollok.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\xml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\xml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\xquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\xquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\yaml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\yaml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\snippets\\zeek.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\snippets\\zeek.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-ambiance.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-ambiance.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-chaos.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-chaos.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-chrome.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-chrome.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-clouds.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-clouds.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-clouds_midnight.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-clouds_midnight.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-cobalt.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-cobalt.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-crimson_editor.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-crimson_editor.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-dawn.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-dawn.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-dracula.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-dracula.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-dreamweaver.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-dreamweaver.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-eclipse.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-eclipse.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-github.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-github.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-gob.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-gob.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-gruvbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-gruvbox.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-idle_fingers.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-idle_fingers.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-iplastic.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-iplastic.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-katzenmilch.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-katzenmilch.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-kr_theme.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-kr_theme.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-kuroir.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-kuroir.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-merbivore.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-merbivore.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-merbivore_soft.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-merbivore_soft.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-mono_industrial.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-mono_industrial.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-monokai.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-monokai.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-nord_dark.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-nord_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-pastel_on_dark.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-pastel_on_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-solarized_dark.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-solarized_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-solarized_light.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-solarized_light.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-sqlserver.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-sqlserver.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-terminal.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-terminal.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-textmate.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-textmate.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_blue.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_blue.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_bright.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_bright.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_eighties.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-tomorrow_night_eighties.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-twilight.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-twilight.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-vibrant_ink.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-vibrant_ink.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\theme-xcode.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\theme-xcode.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-base.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-base.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-coffee.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-coffee.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-css.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-css.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-html.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-html.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-javascript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-json.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-json.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-lua.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-lua.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-php.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-php.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-xml.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-xml.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\ace-builds\\src-min\\worker-xquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\ace-builds\\src-min\\worker-xquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\codemirror\\ambiance.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\codemirror\\ambiance.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\codemirror\\shell.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\codemirror\\shell.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\jquery-file-upload\\uploadfile.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\jquery-file-upload\\uploadfile.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\jquery.avgrund\\jquery.avgrund.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\jquery.avgrund\\jquery.avgrund.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\jsgrid\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\jsgrid\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\moment\\moment.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\moment\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\simplemde\\simplemde.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\simplemde\\simplemde.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\changelog.txt",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\changelog.txt"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\composer.json"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\jquery.tinymce.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\jquery.tinymce.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\package.json",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\advlist\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\advlist\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\anchor\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\anchor\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autolink\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autolink\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autoresize\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autoresize\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autosave\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autosave\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\bbcode\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\bbcode\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\bbcode\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\bbcode\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\charmap\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\charmap\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\code\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\code\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\codesample\\css\\prism.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\codesample\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\codesample\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\colorpicker\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\colorpicker\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\contextmenu\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\contextmenu\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\directionality\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\directionality\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullpage\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullpage\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullpage\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullpage\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullscreen\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullscreen\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\help\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\help\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\help\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\help\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\hr\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\hr\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\hr\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\hr\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\image\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\image\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\imagetools\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\imagetools\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\imagetools\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\imagetools\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\importcss\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\importcss\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\link\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\link\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\lists\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\lists\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\media\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\media\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\noneditable\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\noneditable\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\noneditable\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\noneditable\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\pagebreak\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\pagebreak\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\paste\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\paste\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\paste\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\paste\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\preview\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\preview\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\print\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\print\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\print\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\print\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\save\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\save\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\searchreplace\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\searchreplace\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\spellchecker\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\spellchecker\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\tabfocus\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\tabfocus\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\table\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\table\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\template\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\template\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textcolor\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textcolor\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textcolor\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textcolor\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textpattern\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textpattern\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textpattern\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textpattern\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\toc\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\toc\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\toc\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\toc\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualblocks\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualblocks\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualchars\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualchars\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\wordcount\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\wordcount\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\readme.md",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\anchor.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\object.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\img\\trans.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\skins\\lightgray\\skin.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\skins\\lightgray\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\inlite\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\inlite\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\inlite\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\inlite\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\inlite\\theme.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\inlite\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\modern\\index.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\modern\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\modern\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\modern\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\themes\\modern\\theme.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\themes\\modern\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\tinymce.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\tinymce.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\tinymce.jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\tinymce.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\twbs-pagination\\jquery.twbsPagination.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\twbs-pagination\\jquery.twbsPagination.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\LICENCE.md",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\LICENCE.md"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\typicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\typicons.css"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\typicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\typicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\typicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\typicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\typicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\typicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\wwwroot\\assets\\vendors\\typicons\\typicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendors\\typicons\\typicons.woff"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pronia.Microsoft.AspNetCore.StaticWebAssets.props",

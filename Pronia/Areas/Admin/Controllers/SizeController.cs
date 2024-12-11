@@ -33,6 +33,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create(CreateSizeVM sizeVM)
         {
             if (!ModelState.IsValid)
@@ -85,6 +87,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Update(int? id, UpdateSizeVM sizeVM)
         {
             if (!ModelState.IsValid)

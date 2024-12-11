@@ -10,5 +10,7 @@ namespace Pronia.ViewModels
 
         public List<Category> Categories { get; set; }
         public List<ProductImage> ProductImages { get; set; }
+
+        public List<Product> NewProducts { get; set; }
     }
 }

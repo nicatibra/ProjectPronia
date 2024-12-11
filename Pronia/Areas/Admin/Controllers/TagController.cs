@@ -32,6 +32,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
 
         public async Task<IActionResult> Create(CreateTagVM tagVM)
         {
@@ -77,6 +79,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
 
         public async Task<IActionResult> Update(int? id, UpdateTagVM tagVM)
         {

@@ -40,8 +40,8 @@ namespace Pronia.Controllers
                 .Take(3)
                 .ToListAsync(),
 
-
-                Products = await _context.Products
+                NewProducts = await _context.Products
+                .OrderByDescending(p => p.CreatedAt)
                 .Where(p => p.IsDeleted == false)//Bu da silinecek
                 .Take(8)
                 .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))

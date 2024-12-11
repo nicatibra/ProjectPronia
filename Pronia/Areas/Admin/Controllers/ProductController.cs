@@ -58,6 +58,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create(CreateProductVM productVM)
         {
             productVM.Categories = await _context.Categories.ToListAsync();
@@ -266,6 +268,8 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Update(int? id, UpdateProductVM productVM)
         {
             if (id == null || id < 1) { return BadRequest(); }
