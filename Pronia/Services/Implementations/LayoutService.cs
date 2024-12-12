@@ -4,6 +4,7 @@ using Pronia.DAL;
 using Pronia.Models;
 using Pronia.Services.Interfaces;
 using Pronia.ViewModels.Basket;
+using System.Security.Claims;
 
 namespace Pronia.Services.Implementations
 {
@@ -11,47 +12,69 @@ namespace Pronia.Services.Implementations
     {
         private readonly AppDbContext _context;
         private readonly HttpContext _http;
+        private readonly ClaimsPrincipal _user;
 
         public LayoutService(AppDbContext context, IHttpContextAccessor http)
         {
             _context = context;
             _http = http.HttpContext;
+            _user = _http.User;
         }
 
         public async Task<List<BasketItemVM>> GetBasketAsync()
         {
-
-            List<BasketCookieItemVM> cookiesVM;
-            string cookie = _http.Request.Cookies["basket"];
-
             List<BasketItemVM> basketVM = new();
 
-            if (cookie == null)
+            if (_user.Identity.IsAuthenticated)
             {
-                return basketVM;
+                basketVM = await _context.BasketItems
+                   .Where(bi => bi.AppUserId == _user.FindFirstValue(ClaimTypes.NameIdentifier))
+                   .Select(bi => new BasketItemVM
+                   {
+                       Count = bi.Count,
+                       Price = bi.Product.Price,
+                       Image = bi.Product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true).ImageUrl,
+                       Name = bi.Product.Name,
+                       SubTotal = bi.Product.Price * bi.Count,
+                       Id = bi.ProductId
+                   })
+                   .ToListAsync();
             }
-
-            cookiesVM = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookie);
-
-            foreach (BasketCookieItemVM item in cookiesVM)
+            else
             {
-                Product product = await _context.Products
-                    .Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
-                    .FirstOrDefaultAsync(p => p.Id == item.Id);
+                List<BasketCookieItemVM> cookiesVM;
+                string cookie = _http.Request.Cookies["basket"];
 
-                if (product != null)
+
+                if (cookie == null)
                 {
-                    basketVM.Add(new BasketItemVM
+                    return basketVM;
+                }
+
+                cookiesVM = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookie);
+
+                foreach (BasketCookieItemVM item in cookiesVM)
+                {
+                    Product product = await _context.Products
+                        .Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
+                        .FirstOrDefaultAsync(p => p.Id == item.Id);
+
+                    if (product != null)
                     {
-                        Id = product.Id,
-                        Name = product.Name,
-                        Image = product.ProductImages[0].ImageUrl,
-                        Price = product.Price,
-                        Count = item.Count,
-                        SubTotal = item.Count * product.Price
-                    });
+                        basketVM.Add(new BasketItemVM
+                        {
+                            Id = product.Id,
+                            Name = product.Name,
+                            Image = product.ProductImages[0].ImageUrl,
+                            Price = product.Price,
+                            Count = item.Count,
+                            SubTotal = item.Count * product.Price
+                        });
+                    }
                 }
             }
+
+
 
 
             return basketVM;

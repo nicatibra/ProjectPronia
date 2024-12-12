@@ -39,5 +39,12 @@ namespace Pronia.DAL
 
 
 
+        public DbSet<BasketItem> BasketItems { get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+
     }
 }
