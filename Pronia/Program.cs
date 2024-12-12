@@ -30,6 +30,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
+builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
 
 app.UseAuthentication();//login olmaq ucun
