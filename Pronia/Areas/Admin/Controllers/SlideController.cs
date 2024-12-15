@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
@@ -10,7 +9,7 @@ using Pronia.Utilities.Extensions;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin,Moderator")]
+    //[Authorize(Roles = "Admin,Moderator")]
 
     public class SlideController : Controller
     {
@@ -73,6 +72,8 @@ namespace Pronia.Areas.Admin.Controllers
 
         }
 
+
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }
@@ -141,6 +142,9 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels;
 using Pronia.DAL;
@@ -11,7 +10,7 @@ namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
     //hem adminin hem moderatorun access-i var
-    [Authorize(Roles = "Admin,Moderator")]
+    //[Authorize(Roles = "Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -232,6 +231,7 @@ namespace Pronia.Areas.Admin.Controllers
         //---------------------------
         //ancaq adminin access-i var
 
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }
@@ -521,6 +521,34 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
         //---------------------------
+
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            Product product = await _context.Products
+                .Include(p => p.ProductImages)
+                .Include(p => p.ProductTags)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product is null) return NotFound();
+
+            foreach (var image in product.ProductImages)
+            {
+                image.ImageUrl.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+            }
+
+            _context.ProductTags.RemoveRange(product.ProductTags);
+
+            _context.ProductImages.RemoveRange(product.ProductImages);
+
+            _context.Products.Remove(product);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 }

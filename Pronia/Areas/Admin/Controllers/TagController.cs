@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.ViewModels.Tags;
 using Pronia.DAL;
@@ -8,7 +7,7 @@ using Pronia.Models;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin,Moderator")]
+    //[Authorize(Roles = "Admin,Moderator")]
 
     public class TagController : Controller
     {
@@ -52,8 +51,9 @@ namespace Pronia.Areas.Admin.Controllers
 
             Tag tag = new()
             {
-                Name = tagVM.Name
-
+                Name = tagVM.Name,
+                CreatedAt = DateTime.Now,
+                IsDeleted = false
             };
 
 
@@ -64,10 +64,12 @@ namespace Pronia.Areas.Admin.Controllers
         }
 
 
+
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id is null || id <= 0) return BadRequest();
-            Tag tag = await _context.Tags.FirstOrDefaultAsync(s => s.Id == id);
+            Tag tag = await _context.Tags.FirstOrDefaultAsync(t => t.Id == id);
             if (tag is null) return NotFound();
 
             UpdateTagVM tagVM = new UpdateTagVM
@@ -82,6 +84,7 @@ namespace Pronia.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
 
 
+
         public async Task<IActionResult> Update(int? id, UpdateTagVM tagVM)
         {
             if (!ModelState.IsValid)
@@ -89,7 +92,7 @@ namespace Pronia.Areas.Admin.Controllers
                 return View(tagVM);
             }
 
-            Tag existed = await _context.Tags.FirstOrDefaultAsync(c => c.Id == id);
+            Tag existed = await _context.Tags.FirstOrDefaultAsync(t => t.Id == id);
             if (existed is null) return NotFound();
 
             existed.Name = tagVM.Name;
@@ -99,6 +102,10 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+
+
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id is null || id < 1) return BadRequest();

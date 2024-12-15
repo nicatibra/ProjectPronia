@@ -24,6 +24,7 @@ namespace Pronia.Controllers
         }
         //---------------------------
 
+        #region Register
         public IActionResult Register()
         {
             return View();
@@ -65,6 +66,7 @@ namespace Pronia.Controllers
 
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
+        #endregion
 
         //---------------------------
 
@@ -127,19 +129,19 @@ namespace Pronia.Controllers
 
         //1 defe yaradib comment atmaq olar
 
-        //public async Task<IActionResult> CreateRoles()
-        //{
-        //    //if eyni rolun bir nece defe yaranmamasinin qarsisini alir
-        //    //foreach ile Enumda olan adlar ile rollari yaradiriq
-        //    foreach (UserRole role in Enum.GetValues(typeof(UserRole)))
-        //    {
-        //        if (!await _roleManager.RoleExistsAsync(role.ToString()))
-        //        {
-        //            await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
-        //        }
-        //    }
-        //    return RedirectToAction(nameof(HomeController.Index), "Home");
-        //}
+        public async Task<IActionResult> CreateRoles()
+        {
+            //if eyni rolun bir nece defe yaranmamasinin qarsisini alir
+            //foreach ile Enumda olan adlar ile rollari yaradiriq
+            foreach (UserRole role in Enum.GetValues(typeof(UserRole)))
+            {
+                if (!await _roleManager.RoleExistsAsync(role.ToString()))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
+                }
+            }
+            return RedirectToAction(nameof(HomeController.Index), "Home");
+        }
 
         //---------------------------
 
