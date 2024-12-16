@@ -110,6 +110,66 @@ namespace Pronia.Controllers
         }
 
 
+        public async Task<IActionResult> RemoveBasketItem(int? id)
+        {
+            if (id == null || id < 1)
+            {
+                return BadRequest();
+            }
+
+            if (User.Identity.IsAuthenticated)
+            {
+                // Authenticated user: Remove item from the database
+                AppUser? user = await _userManager.Users
+                    .Include(u => u.BasketItems)
+                    .FirstOrDefaultAsync(u => u.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+                if (user == null)
+                {
+                    return Unauthorized();
+                }
+
+                BasketItem? item = user.BasketItems.FirstOrDefault(bi => bi.ProductId == id);
+
+                if (item == null)
+                {
+                    return NotFound();
+                }
+
+                user.BasketItems.Remove(item);
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                // Guest user: Remove item from the cookie
+                string? cookies = Request.Cookies["basket"];
+                if (cookies == null)
+                {
+                    return NotFound();
+                }
+
+                List<BasketCookieItemVM> basket = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookies);
+                BasketCookieItemVM? item = basket.FirstOrDefault(b => b.Id == id);
+
+                if (item == null)
+                {
+                    return NotFound();
+                }
+
+                basket.Remove(item);
+
+                string json = JsonConvert.SerializeObject(basket);
+                Response.Cookies.Append("basket", json);
+            }
+
+            return RedirectToAction(nameof(GetBasket));
+
+        }
+
+
+
+
+
         [Authorize(Roles = "Member")]
         public async Task<IActionResult> Checkout()
         {

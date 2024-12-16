@@ -45,15 +45,16 @@
                                         total +=itemVM.SubTotal;
                                         <tr>
                                             <td class="product_remove">
-                                                <a href="#">
-                                                    <i class="pe-7s-close"
-                                                       data-tippy="Remove"
-                                                       data-tippy-inertia="true"
-                                                       data-tippy-animation="shift-away"
-                                                       data-tippy-delay="50"
-                                                       data-tippy-arrow="true"
-                                                       data-tippy-theme="sharpborder"></i>
-                                                </a>
+                                                    <button type="submit" class="product-item_remove border-0 bg-transparent" asp-controller="basket" asp-action="removebasketitem" asp-route-id="@itemVM.Id">
+                                                        <i class="pe-7s-close"
+                                                           data-tippy="Remove"
+                                                           data-tippy-inertia="true"
+                                                           data-tippy-animation="shift-away"
+                                                           data-tippy-delay="50"
+                                                           data-tippy-arrow="true"
+                                                           data-tippy-theme="sharpborder"></i>
+                                                    </button>
+                                                
                                             </td>
                                             <td class="product-thumbnail">
                                                 <a href="#">
