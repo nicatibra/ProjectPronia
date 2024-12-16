@@ -103,8 +103,7 @@
               "ViewState": "AgIAACkAAAAAAAAAAAAWwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T13:48:06.699Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T13:54:08.074Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "Pronia\\ViewModels\\Basket\\BasketItemVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:25:15.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:25:15.859Z"
             },
             {
               "$type": "Document",
@@ -143,8 +140,7 @@
               "RelativeToolTip": "Pronia\\Services\\Implementations\\LayoutService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:07:27.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:07:27.422Z"
             },
             {
               "$type": "Document",
@@ -156,8 +152,7 @@
               "RelativeToolTip": "Pronia\\Services\\Interfaces\\ILayoutService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:07:04.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:07:04.882Z"
             },
             {
               "$type": "Document",
@@ -169,8 +164,7 @@
               "RelativeToolTip": "Pronia\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQDAAAAAAAAAAAAAD4DAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T22:06:01.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:06:01.174Z"
             },
             {
               "$type": "Document",
@@ -182,8 +176,7 @@
               "RelativeToolTip": "Pronia\\Controllers\\BasketController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwGwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:34:00.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T21:34:00.362Z"
             },
             {
               "$type": "Document",
@@ -193,7 +186,7 @@
               "RelativeDocumentMoniker": "Pronia\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\Pronia\\Pronia\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Pronia\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAPwBAAAAAAAAAAAAABgCAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPkBAAAAAAAAAAAAAAUCAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T22:11:44.684Z",
               "EditorCaption": ""
@@ -208,8 +201,7 @@
               "RelativeToolTip": "Pronia\\Views\\Shared\\BasketPartialView.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T22:23:17.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:23:17.103Z"
             },
             {
               "$type": "Document",
@@ -221,8 +213,7 @@
               "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAO0AAAAAAAAAAAAAAAwBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T21:07:26.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T21:07:26.516Z"
             },
             {
               "$type": "Document",
