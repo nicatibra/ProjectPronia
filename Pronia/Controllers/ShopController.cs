@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Pronia.DAL;
 using Pronia.Models;
+using Pronia.Utilities.Exceptions;
 using Pronia.ViewModels;
 
 namespace Pronia.Controllers
@@ -22,7 +23,7 @@ namespace Pronia.Controllers
 
         public async Task<IActionResult> Detail(int? id)
         {
-            if (id == null || id < 1) { return BadRequest(); }
+            if (id == null || id < 1) { throw new BadRequestException($"there is no product with {id} id"); };
 
             Product? product = await _context.Products
                 .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary)) //true,false,null ardcilligi
@@ -32,7 +33,7 @@ namespace Pronia.Controllers
                 .Include(p => p.ProductSizes).ThenInclude(ps => ps.Size)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
-            if (product == null) { return NotFound(); }
+            if (product == null) { throw new NotFoundException($"couldn't find product with {id} id :( "); }
 
             DetailVM detailVM = new DetailVM
             {

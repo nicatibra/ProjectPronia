@@ -37,10 +37,17 @@ builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
+//wwwroot ucun
+app.UseStaticFiles();
+
+
+//login register ucun
 app.UseAuthentication();//login olmaq ucun
 app.UseAuthorization();//role elde etmek ucun
 
-app.UseStaticFiles();
+
+//globalexchandler
+//app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 
 app.MapControllerRoute(
@@ -56,4 +63,6 @@ app.MapControllerRoute(
 
 app.Run();
 
+
+//Cart page sehifesinde returnUrl ile et silmeni
 

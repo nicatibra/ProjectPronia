@@ -521,26 +521,27 @@
         b.addEventListener("click", function (e) {
             e.preventDefault()
 
-            var endpoint = this.getAttribute("href")
+            var endpoint = this.getAttribute("href");
 
-            $.ajax({
-                type: "GET",
-                url: endpoint
-            }).done(data => {
-                
-                var cart=document.querySelector("#miniCart")
-                cart.innerHTML=data
+
+            fetch(endpoint).then(response=>response.text()).then(data => {
+
+                    var cart = document.querySelector("#miniCart")
+                    cart.innerHTML=data
+
+                    var basketCount = document.querySelector("#basket-count").value
+                    var quantities = document.querySelectorAll(".cus-quantity")
+
+                    quantities.forEach(q=>q.innerHTML=basketCount)
             })
         })
     })
 
 </script>
 
-<script>
-
-    var addBtns = document.querySelectorAll(".product-item_remove")
-
-    addBtns.forEach(b => {
+@* <script>
+    var btns = document.querySelectorAll(".cus-add-basket")
+    btns.forEach(b => {
         b.addEventListener("click", function (e) {
             e.preventDefault()
 
@@ -549,12 +550,16 @@
             $.ajax({
                 type: "GET",
                 url: endpoint
-            }).done(data => {
 
-                var cart=document.querySelector("#miniCart")
-                cart.innerHTML=data
+            }).done(data => {
+                var cart = document.querySelector("#miniCart")
+                cart.innerHTML = data
+
+                var basketCount = document.querySelector("#basket-count").value
+                var quantities = document.querySelectorAll(".cus-quantity")
+
+                quantities.forEach(q => q.innerHTML = basketCount)
             })
         })
     })
-
-</script>
+</script> *@

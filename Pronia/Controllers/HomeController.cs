@@ -16,7 +16,6 @@ namespace Pronia.Controllers
 
         public async Task<IActionResult> Index()
         {
-
             #region ForAddingToDB
             //Slide slide1 = new Slide("TORCH FLOWER", "50% OFF", "100% from Minecraft", "TorchFlower.png", 2, false, DateTime.Now);
             //Slide slide2 = new Slide("PITCHER PLANT", "60% OFF", "100% from Minecraft", "PitcherPlant.webp", 1, false, DateTime.Now);
@@ -30,7 +29,6 @@ namespace Pronia.Controllers
             //_context.Slides.AddRange(slides);
             //_context.SaveChanges(); 
             #endregion
-
 
             HomeVM homeVM = new HomeVM
             {

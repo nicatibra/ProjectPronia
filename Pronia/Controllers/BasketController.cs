@@ -107,6 +107,7 @@ namespace Pronia.Controllers
         public async Task<IActionResult> GetBasket()
         {
             return PartialView("BasketPartialView", await _basketService.GetBasketAsync());
+            //return RedirectToAction("Index", "Home", await _basketService.GetBasketAsync());
         }
 
 
@@ -162,7 +163,8 @@ namespace Pronia.Controllers
                 Response.Cookies.Append("basket", json);
             }
 
-            return RedirectToAction(nameof(GetBasket));
+            //return RedirectToAction(nameof(GetBasket));
+            return RedirectToAction("Index", "Home");
 
         }
 

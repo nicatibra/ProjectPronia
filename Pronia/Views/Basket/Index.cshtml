@@ -13,7 +13,7 @@
                         <h2 class="breadcrumb-heading">Cart Page</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a asp-controller="home" asp-action="index">Home</a>
                             </li>
                             <li>Cart Page</li>
                         </ul>
@@ -121,7 +121,7 @@
                                     <ul>
                                         <li>Total <span>$@total</span></li>
                                     </ul>
-                                    <a href="#">Proceed to checkout</a>
+                                    <a asp-controller="basket" asp-action="checkout">Proceed to checkout</a>
                                 </div>
                             </div>
                         </div>
