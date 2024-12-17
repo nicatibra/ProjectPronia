@@ -65,4 +65,8 @@ app.Run();
 
 
 //Cart page sehifesinde returnUrl ile et silmeni
+//basket page-de remove edende ana sehifeye qaytarir
+//shop index sehifesinde 2ci type product yaz
+//duymelere funks ver
+//category kimi color da duzelt
 
